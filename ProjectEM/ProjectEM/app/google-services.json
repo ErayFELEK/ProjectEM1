@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "293611174641",
+    "firebase_url": "https://projectem-c4261.firebaseio.com",
+    "project_id": "projectem-c4261",
+    "storage_bucket": "projectem-c4261.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293611174641:android:ab7e9f17b0952cf55f0750",
+        "android_client_info": {
+          "package_name": "com.example.mobyloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293611174641-f1k28bgpcleg156e8jfk7sqv4oqsoa15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAepzXyijDS_L1yM4qNpt06Ai180IBROOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293611174641-f1k28bgpcleg156e8jfk7sqv4oqsoa15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

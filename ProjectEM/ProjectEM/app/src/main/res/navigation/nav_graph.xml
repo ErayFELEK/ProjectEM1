@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph" app:startDestination="@id/startFragment">
+
+    <fragment android:id="@+id/startFragment" android:name="com.example.proje1.StartFragment"
+              android:label="StartFragment">
+        <action android:id="@+id/action_startFragment_to_entriesOpeningFragment"
+                app:destination="@id/entriesOpeningFragment"/>
+    </fragment>
+    <fragment android:id="@+id/entriesOpeningFragment"
+              android:name="com.example.mobyloc.entry_related.EntriesOpeningFragment"
+              android:label="EntriesOpeningFragment">
+        <action android:id="@+id/action_entriesOpeningFragment_to_writeNewEntryFragment"
+                app:destination="@id/writeNewEntryFragment"/>
+    </fragment>
+    <fragment android:id="@+id/writeNewEntryFragment"
+              android:name="com.example.mobyloc.entry_related.WriteNewEntryFragment"
+              android:label="fragment_write_new_entry" tools:layout="@layout/fragment_write_new_entry"/>
+</navigation>
